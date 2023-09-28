@@ -11,7 +11,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
+    position: fixed;      
+    top: 0;          
+    width: 100%;     
+    z-index: 999;   
 }
+
 .boolean-logo {
     width: auto;
     height: 30px;
@@ -40,9 +45,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 40px;
     max-width: 1000px;
-    margin: 40px auto 0;
+    margin: 150px auto 0;
 }
 .container {
     width: 300px;
@@ -112,6 +116,10 @@ body {
     background-color: green;
     color: white;
     left: 45px;
+}
+
+.special{
+    left: 0px;
 }
 .heart-container {
     position: absolute;
